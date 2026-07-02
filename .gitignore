@@ -28,3 +28,5 @@ output.json
 # OS Files
 .DS_Store
 Thumbs.db
+
+Employee-Database-MCP-Agent/database/*.db
