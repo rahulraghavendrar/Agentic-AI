@@ -10,6 +10,11 @@ venv/
 .env
 *.env
 
+# Local SQLite Databases
+Employee-Database-MCP-Agent/database/*.db
+*.sqlite
+*.sqlite3
+
 # VS Code
 .vscode/
 
@@ -25,8 +30,15 @@ venv/
 # Output Files
 output.json
 
+# Node.js
+node_modules/
+npm-cache/
+npm-temp/
+
+# Pip Temporary Files and Cache
+pip-cache/
+pip-temp/
+
 # OS Files
 .DS_Store
 Thumbs.db
-
-Employee-Database-MCP-Agent/database/*.db
